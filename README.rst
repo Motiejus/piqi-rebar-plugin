@@ -43,14 +43,14 @@ required.
 Currently works
 ---------------
 
-1. Simple compilation which does not ``.include a-module``.
+1. Simple compilation which does not ``.import a-module``.
 2. Rebar dependency handling (must be prettier though).
 
 TODO
 ----
 
 1. ``clean`` target.
-2. properly include HRLs of dependencies (in case of ``.include a-module``).
+2. properly import HRLs of dependencies (in case of ``.import a-module``).
 
 Special requirements
 --------------------
