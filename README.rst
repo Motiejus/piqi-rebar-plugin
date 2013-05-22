@@ -57,5 +57,15 @@ Special requirements
 
 Requires rebar with patch `252b31f2a4b`_.
 
+Plugin philosophy (and how it works)
+------------------------------------
+
+It emulates ``piqic-erlang`` or ``piqic-erlang-rpc`` with the arguments provided
+in the options line. It tries to be just a small step ahead of Makefiles and the
+plugin is intended to be as thin as possible.
+
+Some help from piqic-erlang and rebar is needed to make dynamic directories
+work, but we are working hard making it clean.
+
 .. _`work-in-progress`: https://groups.google.com/forum/?fromgroups#!topic/piqi/qXRnQxS53HQ
 .. _252b31f2a4b: https://github.com/rebar/rebar/commit/252b31f2a4b95670ef75a6a712788af977e869e9
