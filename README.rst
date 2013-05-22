@@ -44,12 +44,12 @@ Currently works
 ---------------
 
 1. Simple compilation which does not ``.include a-module``.
-2. Dependency handling (could be prettier).
+2. Rebar dependency handling (must be prettier though).
 
 TODO
 ----
 
-1. ``clean`` target
+1. ``clean`` target.
 2. properly include HRLs of dependencies (in case of ``.include a-module``).
 
 Special requirements
